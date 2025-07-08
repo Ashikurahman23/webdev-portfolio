@@ -1,4 +1,7 @@
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .open-sans-normal {
@@ -43,16 +46,19 @@
   font-size: 35px;
   font-weight: bold;
   color: #181818;
+  margin-bottom: 30px;
 }
 .section-description {
   font-size: 18px;
   color: #757575;
+  margin-bottom: 30px;
 }
 /* Header */
 .header {
   background-image: url(../images/developer.png), url(../images/header_bg.png);
   background-repeat: no-repeat;
-  background-position: top left, bottom right;
+  background-position: 30px 20px, bottom right;
+  padding: 20px 0 0 0;
 }
 /* Navbar */
 nav {
@@ -81,7 +87,7 @@ nav ul li a {
 /* Banner Styles */
 .banner {
   display: flex;
-  margin: 0 35px 0 200px;
+  margin: 80px 35px 0 200px;
   justify-content: space-between;
 }
 .banner-content {
@@ -94,9 +100,11 @@ nav ul li a {
 .banner_title {
   font-weight: bold;
   font-size: 85px;
+  margin: 40px 0;
 }
 .banner-description {
   font-size: 18px;
+  margin-bottom: 40px;
 }
 .banner-profile-pic {
   width: 580px;
@@ -123,13 +131,13 @@ main {
 }
 .item-description {
   font-weight: bold;
-  line-height: 0;
 }
 .skills {
   margin: 130px 0;
 }
 .skills > p {
   padding: 0 100px;
+  text-align: center;
 }
 .skills-container {
   display: flex;
@@ -141,7 +149,12 @@ main {
   padding: 30px;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
-
+.skill img {
+  margin: 10px;
+}
+.skill h4 {
+  margin-bottom: 10px;
+}
 /* Resume Section Styles */
 .resume-container {
   display: flex;
@@ -149,8 +162,8 @@ main {
 }
 .experience-subtitle {
   font-size: 20px;
-  line-height: 0;
   font-weight: 600;
+  margin-bottom: 10px;
 }
 .experience-description,
 .experience-subtitle {
@@ -160,6 +173,7 @@ main {
   font-size: 25px;
   font-weight: 700;
   color: #474747;
+  margin-bottom: 10px;
 }
 .resume hr {
   margin: 30px 5px;
@@ -169,6 +183,7 @@ main {
   font-size: 30px;
   font-weight: bold;
   color: #474747;
+  margin-bottom: 20px;
 }
 .resume-download-cv {
   margin: 50px 0;
